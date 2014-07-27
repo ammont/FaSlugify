@@ -72,7 +72,12 @@ class FaSlugify {
         'ي' => 'y'
     );
 
-    public function __constuct($translate = false)
+    /**
+     * The class constructor.
+     *
+     * @param boolean $translate
+     */
+    public function __construct($translate = false)
     {
     	$this->translate = $translate;
     }
