@@ -32,13 +32,17 @@ Generate a slug:
 use Ammont\FaSlugify\FaSlugify;
 
 $slugify = new FaSlugify();
-echo $slugify->slugify('سلام دنیا'); // سلام-دنیا
+echo $slugify->slugify('سلام دنیا');
+
+// سلام-دنیا
 ```
 
 You can also change the seperator used by `FaSlugify`:
 
 ```php
-echo $slugify->slugify('سلام دنیا', '_'); // سلام_دنیا
+echo $slugify->slugify('سلام دنیا', '_');
+
+// سلام_دنیا
 ```
 
 You can enable translation to generate standard latin (pinglish) slugs. (it's in developement)
@@ -46,7 +50,9 @@ You can enable translation to generate standard latin (pinglish) slugs. (it's in
 ```php
 $slugify = new FaSlugify(true);// pass true to enable translation
 
-echo $slugify->slugify('سلام دنیا');// salam-donya
+echo $slugify->slugify('سلام دنیا');
+
+// salam-donya
 ```
 
 
