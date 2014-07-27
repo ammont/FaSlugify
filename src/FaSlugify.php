@@ -10,6 +10,7 @@
  */
 
 namespace Ammont\FaSlugify;
+use Ammont\Finglify\Finglify;
 
 /**
  * Slugify
