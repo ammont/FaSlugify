@@ -14,11 +14,8 @@ namespace Ammont\FaSlugify;
 /**
  * Slugify
  *
- * @package   org.cocur.slugify
- * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
- * @author    Ivo Bathke <ivo.bathke@gmail.com>
- * @author    Marchenko Alexandr
- * @copyright 2012-2014 Florian Eckerstorfer
+ * @author    Amir Montazer <ammontazer@gmail.com>
+ * @copyright 2012-2014 Amir Montazer
  * @license   http://www.opensource.org/licenses/MIT The MIT License
  */
 class FaSlugify {
