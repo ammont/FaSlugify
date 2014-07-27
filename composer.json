@@ -1,0 +1,15 @@
+{
+    "name": "ammont/fa-slugify",
+    "description": "Slug generator for persian/farsi.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amir Montazer",
+            "email": "ammontazer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+    }
+}
